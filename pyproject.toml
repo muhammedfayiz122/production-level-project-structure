@@ -1,0 +1,22 @@
+[project]
+name = "<Name of the project>"
+version = "0.1.0"
+description = "<Description of the project>"
+authors = [
+    { name = "<Name of the author>", email = "<Email of the author>" },
+    { name = "<Name of the co-author>", email = "<Email of the co-author>" }
+]
+readme = "README.md"
+license = { text = "MIT License", url = "https://opensource.org/licenses/MIT" }
+requires-python = ">=3.8"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/muhammedfayiz122/<project_name_as_in_github>"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["<where_root_of_project_is_located>"]
